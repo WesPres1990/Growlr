@@ -1,0 +1,69 @@
+#logo{
+    height:272px;
+    width: 184px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+   
+
+}
+
+body {
+    background-image:url("images/background5.png")
+
+
+}
+
+
+.form{
+    padding: 10px;
+    margin: 10px;
+}
+
+.container{
+    width: 18%;
+}
+
+.container1{
+    width:150%;
+    padding: 10%;
+}
+
+#info{
+width:60%;
+padding: 10px;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* .column {
+float:left;
+padding:10px;
+}
+
+.column.side{
+width:25%;
+}
+
+.column.middle{
+    width:50%;
+} */
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
