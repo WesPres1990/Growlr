@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Growlr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link href="https://maxcdn.bootstrapcdn.com/bootswatch/4.0.0/sketchy/bootstrap.min.css" rel="stylesheet" integrity="sha384-QAdi7HQouHzrMcg66qFdsKV2BCFW/iVhCRvooAkqS4d5rXV8Hlu+X8MY3ao03fgn" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/home.css">
+    <!-- <script src="main.js"></script> -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js'></script>
+  
+    <style>
+            
+            /* Create three unequal columns that floats next to each other */
+            .column {
+                float: left;
+                padding: 10px;
+            }
+            
+            /* Left and right column */
+            .column.side {
+                width: 25%;
+                margin: auto;
+                padding: 5%;
+            }
+            
+            /* Middle column */
+            .column.middle {
+                width: 50%;
+            }
+            
+            /* Clear floats after the columns */
+            .row:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 600px) {
+                .column.side, .column.middle {
+                    width: 100%;
+                }
+            }
+            </style>
+            </head>
+      
+</head>
+<body> 
+    
+   {{{ body }}}
+
+   </body>
+</html>
