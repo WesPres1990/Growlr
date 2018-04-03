@@ -42,19 +42,19 @@ Friend Finder is a full stack node app deployed on [Heroku](https://warm-sierra-
 
 #### Homepage
 
-  ![image](../Growlr/screenshots/Growlr-1.PNG)
+  ![image](/Growlr/public/img/Growlr-1.PNG)
 
 #### Person Information Page
 
-  ![image](../Growlr/screenshots/Growlr-2.PNG)
+  ![image](/Growlr/public/img/Growlr-2.PNG)
 
 #### Person Survey
 
-  ![image](../Growlr/screenshots/Growlr-3.PNG)
+  ![image](/Growlr/public/img/Growlr-3.PNG)
 
 #### Dog Information Page
 
- ![image](../Growlr/screenshots/Growlr-4.PNG)
+ ![image](/Growlr/public/img/Growlr-4.PNG)
 
 ```
 Casual users looking to see which dod breed best matches 
