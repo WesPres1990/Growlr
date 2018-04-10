@@ -1,7 +1,7 @@
-<h1 align="center">growlr</h1>
+<h1 align="center">Growlr</h1>
 
 <div align="center">
-  <strong>your perfect dog. their perfect home.</strong>
+  <strong>Your perfect dog. Their perfect home.</strong>
 </div>
 <div align="center">
   A <code>full-stack</code> application
@@ -12,19 +12,17 @@
 ## Table of Contents
 - [About](#about)
 - [How to Use](#how-to-use)
-- [Example](#example)
-- [Installation](#installation)
 - [Built With](#built-with)
-- [Author](#author)
-- [License](#license)
+- [Preview](#preview)
 - [Application Structure](#application-structure)
-- [Deployment](#deployment)
-- [Target Audience](#target-audience)
-- [Live Demo](#live-demo)
+- [Installation](#installation)
+- [License](#license)
+- [Authors](#author)
 
 
 ## About
 Much like eHarmoney, Growlr uses a series of questions to try and match the perfect ownder to the perfect dog breed. 
+
 
 ## How to Use
 The application is hosted on Heroku: [Growlr](https://warm-sierra-75928.herokuapp.com)
@@ -35,26 +33,42 @@ If the user is a person or company (animal shelter, PetSmart, etc.) acting on be
 
 App also contains a link to the JSON data, which contains an array of people ("friends") and their scores, which are compared against data from the user to determine compatibility.
 
+
 ## Built With
 Friend Finder is a full stack node app deployed on [Heroku](https://warm-sierra-75928.herokuapp.com). Data is saved in a file, not in a database. The application uses the express npm package to configure and operate the server, body-parser to pass the json data back and forth between files & functions, and fs to read & write from the data files on the server. Various routes are setup to complete the survey, view the JSON API, and post data into the app. A general catch-all route will bring all users to the homepage, regardless of the path the user attempts to access.
 
-## Example
+### Technologies Used
 
-#### Homepage
+Languages - HTML5, CSS4, Boostrap, Javascript
 
-  ![image](/Growlr/public/img/Growlr-1.PNG)
+Run-time System - Node.js
 
-#### Person Information Page
+Database - MySQL
 
-  ![image](/Growlr/public/img/Growlr-2.PNG)
+Package Manager - NPM
 
-#### Person Survey
+Other Tools, Technologies, and Techniques - API Routes, Handlebars, MVC
 
-  ![image](/Growlr/public/img/Growlr-3.PNG)
+Text Editor - Visual Studio Code
 
-#### Dog Information Page
 
- ![image](/Growlr/public/img/Growlr-4.PNG)
+## Preview
+
+### Homepage
+- - - -
+<img src="screenshots/Growlr-1.PNG"/>
+
+### Person Information Page
+- - - -
+<img src="screenshots/Growlr-2.PNG"/>
+
+### Person Survey
+- - - -
+<img src="screenshots/Growlr-3.PNG"/>
+
+### Dog Information Page
+- - - -
+<img src="screenshots/Growlr-4.PNG"/>
 
 ```
 Casual users looking to see which dod breed best matches 
@@ -67,7 +81,7 @@ who need homes.
 Code for running the modules is located in the root of the application
 
 ```
-Growlr_Jonathan/server.js
+Growlr/server.js
 ```
 
 The code to display the survey page with fields name, link to photo, and 6 dropdown questions for the user to choose to find the best match, and a submit button.  Another link to list all dogs' details in json format, and another to git repository. And a modal to display the result (best match). Handlebars is used to standardize css, and js bootstrap to format the page and components.
@@ -80,20 +94,17 @@ Growlr implements dog matching based on the user's and dog owner's responses to 
 
 Growlr application is meant to simulate a simple dating app. The application is implemented using a Node.js and Express server on the back end and the bootstrap and handlebars CSS framework on the front end.
 
-## [Usage Overview](#usage-overview)
 
-### **Installation**
+## **Installation**
 
 ```swift
-git clone git@github.com:JonathanBrownCFA/Growlr.git
-cd growlr
+git clone git@github.com:WesPres1990/Growlr.git
+cd Growlr
 npm init
 npm install
 }
 ```
-### **Demo**
 
-Heroku is deployed to Heroku. Please check it out here.
 
 ## License
 
@@ -119,28 +130,9 @@ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-## Author
+## Authors
 
 * **Wesley Hutchins** - [Github](https://github.com/WesPres1990)
 * **Jonathan Brown** - [GitHub](https://github.com/JonathanBrownCFA)
 * **Cynthia Sidlaukas** - [GitHub](https://github.com/cynthiasidlauskas)
 * **Nathan Young** - [GitHub](https://github.com/21ghosts)
-
-## Growlr
-
-In this application the User can answer few questions and find a compatible friend who has similar thought processes. This project is a full stack Node.js application, also deployed to Heroku. 
-
-## Live Demo
-(https://warm-sierra-75928.herokuapp.com)
-
-The package has the following files - server.js, package.json, app/data/friends.js, app/public/home.html, app/public/survey.html, app/routing/apiRoutes.js, app/routing/htmlRoutes.js, .gitignore (to ignore node_modules folder from uploading to git repo). 
-
-## Future Development
-
-* Creating a proper table.
-* Allow user to add multiple items to a single transaction.
-* Creating similar and connected apps for managers and supervisors.
-
-## Technologies Used
-
-HTML5, CSS4, Boostrap, Javascript, Node.js, MySQL, NPM, Handlebars, MVC, API Routes, Visual Studio Code
